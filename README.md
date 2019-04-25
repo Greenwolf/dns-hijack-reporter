@@ -57,6 +57,16 @@ client.py --time 30 --hostname subdomain.mydomain.com --serverip 192.168.0.1 --a
     --cname : Use verification based on CNAME records instead of A records, used when you have multiple IPs for one hostname and using a CDN like Akamai or a service like Cloudflare
     --verbose : Verbose mode with additional dialog
 ``` 
+## Authors
+
+* **Jacob Wilkin** - *Research and Development* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
+* **Andreas Georgiou** - *Brainstorming and Features* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
+
+## Donation
+If this tool has been useful for you, feel free to thank me by buying me a coffee :)
+
+[![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Greenwolf)
+
 ## Graphics
 
 ### Standard DNS Request
@@ -74,16 +84,6 @@ client.py --time 30 --hostname subdomain.mydomain.com --serverip 192.168.0.1 --a
 ### Reporting Hijacked DNS (CNAME)
 
 ![Reporting Hijacked DNS CNAME](images/DNS-Hijacking-hijacked-request-reported-cname.png?raw=true "Reporting Hijacked DNS (CNAME)")
-
-## Authors
-
-* **Jacob Wilkin** - *Research and Development* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
-* **Andreas Georgiou** - *Brainstorming and Features* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
-
-## Donation
-If this tool has been useful for you, feel free to thank me by buying me a coffee :)
-
-[![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Greenwolf)
 
 ## License
 
