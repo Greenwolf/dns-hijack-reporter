@@ -19,22 +19,26 @@ DNS Hijack Reporter functions in the following manner:
 ## Installation
 
 Install the python3 requirements
+```
 $ pip3 install -r requirements.txt
-
+```
 Generate an SSL certificate for the server
+```
 $ openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout cert.pem
-
+```
 ## Usage
 
 Configure the server
+```
 $ python3 server.py --serverip 127.0.0.1 --accesstoken mysecretservertoken --email "myemail@email.com" --sendgridapikey "SG.APIKEYxyz1234567890987654321"
-
+```
 Configure the client for a single IP (default) or multiple like a CDN (--cname)
+```
 $ python3 client.py --time 20 --hostname glokta.com --serverip 127.0.0.1 --accesstoken mysecretservertoken
 $ python3 client.py --time 20 --hostname login.trustwave.com --serverip 127.0.0.1 --accesstoken mysecretservertoken --cname
-
+```
 ## Options Breakdown (--help)
-
+```
 server.py
     --serverip : ip for server to listen on
     --accesstoken : strong token that is used for clients to authenticate to server
@@ -52,7 +56,7 @@ client.py --time 30 --hostname subdomain.mydomain.com --serverip 192.168.0.1 --a
     --debug : skip check to compare initial IP, used for testing dependencies and email notifications using a hostname you dont control to trigger the mismatch
     --cname : Use verification based on CNAME records instead of A records, used when you have multiple IPs for one hostname and using a CDN like Akamai or a service like Cloudflare
     --verbose : Verbose mode with additional dialog
-    
+``` 
 ## Graphics
 
 ### Standard DNS Request
