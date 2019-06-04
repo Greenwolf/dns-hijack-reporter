@@ -59,8 +59,8 @@ client.py --time 30 --hostname subdomain.mydomain.com --serverip 192.168.0.1 --a
 ``` 
 ## Authors
 
-* **Jacob Wilkin** - *Research and Development* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
-* **Andreas Georgiou** - *Brainstorming and Features* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
+* [**Jacob Wilkin**](https://github.com/Greenwolf) - *Research and Development* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
+* [**Andreas Georgiou**](https://github.com/superhedgy) - *Brainstorming and Features* - [Trustwave SpiderLabs](https://github.com/SpiderLabs)
 
 ## Donation
 If this tool has been useful for you, feel free to thank me by buying me a coffee :)
